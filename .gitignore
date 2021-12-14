@@ -1,0 +1,10 @@
+node_modules
+public/styles.css
+public/main-bundle.js*
+dist
+.scannerwork
+**.bak
+**.new
+**.tmp
+**/Thumbs.db
+**/.DS_Store
