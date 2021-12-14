@@ -49,7 +49,7 @@ app.login({ username: 'website', password: 'simplicite' }).then(function(user) {
 			var fr = new FileReader();
 			fr.onload = function() {
 				if (fr.result) {
-					prd.item.demoPrdPicture = { id: 0, name: file.name, type: file.type, content: fr.result };
+					// prd.item.demoPrdPicture = { id: 0, name: file.name, type: file.type, content: fr.result };
 					console.log(prd.item);
 					prd.save().then(function() {
 						console.log(prd.item);
