@@ -24,6 +24,9 @@
     "less-loader": "^10.2.0"
   },
   "scripts": {
- 
+    "start": "webpack serve --config=webpack.config.development.js",
+    "build": "webpack --config=webpack.config.production.js",
+    "serve": "serve",
+    "ncu": "ncu"
   }
 }
